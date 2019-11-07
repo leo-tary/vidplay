@@ -1,0 +1,9 @@
+extends main.pug
+block content    
+    main
+        h3 #{homePageHeader}
+        if vidGenres.length > 0
+            each genre in vidGenres
+                h2 #{genre.name}
+        else 
+            h2 No Genres Found...

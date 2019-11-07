@@ -1,0 +1,8 @@
+{
+    "database":{
+        "catalog":{
+            "pwd":"cat_db_pwd"
+        }
+    }
+
+}

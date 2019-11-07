@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add vidplay Genre</title>
+    <link rel="stylesheet" href="/css/main.css"></link>
+    <link rel="stylesheet" href="/css/genre.css"></link>
+</head>
+<body>
+
+        <header class = "main-header">
+                <nav class = "main-header__nav">
+                    <ul class = "main-header__item-list">
+                            <li class = "main-header__items"><a href="/">Home</a></li>
+                            <li class = "main-header__items"><a href="/genres/list-genre">Genre List</a></li>
+                            <li class = "main-header__items"><a class="active" href="/genres/add-genre">Add Genre</a></li>
+                    </ul>
+                </nav>
+            </header>
+    
+    <main>
+        <form class = "genre-form" action = "/genres/add" , method = "POST">
+            <div class = "form-control">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name"></input>
+            </div>
+
+            <button type="submit">Add Genre</button>
+        
+        </form>
+    </main>
+
+</body>
+</html>

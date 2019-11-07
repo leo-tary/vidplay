@@ -1,0 +1,2 @@
+{"time":"2019-09-05T09:39:26.863Z","url":"/genres/list/45","method":"GET"} ,
+{"time":"2019-09-05T11:24:03.651Z","url":"/genres/remove/2","method":"DELETE"}

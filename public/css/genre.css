@@ -1,0 +1,25 @@
+.genre-form {
+    width: 20rem;
+    max-width: 90%;
+    margin:auto;
+}
+
+.form-control label , 
+.form-control input {
+    display:block;
+    width: 100%;
+}
+
+.form-control input {
+    font:inherit;
+    border: 1px solid #225e63
+}
+
+button {
+    font:inherit;
+    margin: 1rem 0;
+    background-color: #243f46;
+    color:whitesmoke;
+    cursor: pointer;
+
+}

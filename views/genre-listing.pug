@@ -1,0 +1,10 @@
+extends main.pug
+block content
+    main
+        h2 #{genListText}
+        if vidGenres.length > 0
+            each genre in vidGenres
+                div: span 
+                        h3 #{genre.id} #{genre.name}
+        else
+            h4 #{noGenre}

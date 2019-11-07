@@ -1,0 +1,10 @@
+extends main.pug
+block stylesheet
+        link(rel="stylesheet", href="/css/genre.css")
+block content    
+        main
+            form.genre-form(action="/genres/add" ,  method="POST")
+                div.form-control
+                    label(for="name") Name
+                    input(type="text" name="name" id="name")
+                button(type="submit") Add Genre

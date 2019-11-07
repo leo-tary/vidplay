@@ -1,0 +1,11 @@
+{
+    "removeGenre": "Cannot find required genre to remove...",
+    "NOT_FOUND": {
+        "code": 1546,
+        "message": "Cannot find required Object"
+    } , 
+    "DEFAULT": {
+        "code": 4200,
+        "message": "Config missing"
+    }
+}
